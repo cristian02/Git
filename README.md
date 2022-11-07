@@ -30,6 +30,17 @@
   
 <!-- First Steps - Configuration -->
 ## First Steps - Configuration 
+<h5>Installations</h5>
+Should execute the following cmd
+
+Linux -> apt-get install git 
+
+MAC -> git --version  or download at https://git-scm.com/download/mac 
+
+Win -> https://git-scm.com/download/win 
+
+Other option could be GitHub Desktop: 
+https://desktop.github.com/ 
 
 <!-- CONTACT -->
 ## Contact
