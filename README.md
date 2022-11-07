@@ -11,9 +11,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#first-steps-configuration">First Steps - Configuration</a>
+      <a href="#first-steps">First Steps - Configuration</a>
       <ul>
-        <li><a href="#lets-start">Let's start - Hands-on</a></li>
+        <li><a href="#our-first-repo">Let's start - Hands-on</a></li>
       </ul>
     </li>
     <li>
@@ -29,9 +29,9 @@
 </details
   
 <!-- First Steps - Configuration -->
-## First Steps - Configuration 
+## First Steps 
 <h5>Installations</h5>
-Should execute the following cmd
+Installation require that you should execute the following cmd or program
 
 Linux -> apt-get install git 
 
@@ -58,7 +58,7 @@ git config --global core.autocrlf true (Windows)
 git config --global core.autocrlf input (MAC)
 
 <!-- Let's start - Hands-on -->
-## Let's start - Hands-on 
+## Our first repo 
 git config --global core.autocrlf input (MAC)
 
 <!-- CONTACT -->
