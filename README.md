@@ -11,9 +11,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">First Steps - Configuration</a>
+      <a href="#first-steps-configuration">First Steps - Configuration</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#lets-start">Let's start - Hands-on</a></li>
       </ul>
     </li>
     <li>
@@ -41,6 +41,25 @@ Win -> https://git-scm.com/download/win
 
 Other option could be GitHub Desktop: 
 https://desktop.github.com/ 
+
+It's important to know the it's better use comand line, GUI tools always has limits.  
+
+<h5>Configuration</h5>
+After that, you can set up your git enviroment using git configuration. One of the first things you did was set up your name and email address. (Check out git config information before execute these commands)
+
+git config --global user.name "Cristian Martínez"
+git config --global user.email crismh2@hotmail.com
+
+Other useful commands: 
+git config --global core.editor "code --wait" -> Define VS Code as default editor
+git config --global -e 
+
+git config --global core.autocrlf true (Windows)
+git config --global core.autocrlf input (MAC)
+
+<!-- Let's start - Hands-on -->
+## Let's start - Hands-on 
+git config --global core.autocrlf input (MAC)
 
 <!-- CONTACT -->
 ## Contact
