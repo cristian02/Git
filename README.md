@@ -47,19 +47,18 @@ It's important to know the it's better use comand line, GUI tools always has lim
 <h5>Configuration</h5>
 After that, you can set up your git enviroment using git configuration. One of the first things you did was set up your name and email address. (Check out git config information before execute these commands)
 
-git config --global user.name "Cristian Martínez"
-git config --global user.email crismh2@hotmail.com
-
-Other useful commands: 
-git config --global core.editor "code --wait" -> Define VS Code as default editor
+git config --global user.name "Cristian Martínez"<br/> 
+git config --global user.email crismh2@hotmail.com<br/><br/> 
+Other useful commands: <br/> 
+git config --global core.editor "code --wait" -> Define VS Code as default editor <br/> 
 git config --global -e 
 
-git config --global core.autocrlf true (Windows)
+git config --global core.autocrlf true (Windows)<br/> 
 git config --global core.autocrlf input (MAC)
 
 <!-- Let's start - Hands-on -->
 ## Our first repo 
-git config --global core.autocrlf input (MAC)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
