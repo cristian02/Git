@@ -64,6 +64,7 @@ git config --global core.autocrlf input (MAC)
 <!-- CONTACT -->
 ## Contact
 Cristian Martínez Hernández 
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
