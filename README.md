@@ -58,6 +58,12 @@ git config --global core.autocrlf input (MAC)
 
 <!-- Let's start - Hands-on -->
 ## Our first repo 
+git init -> Start git file 
+git status -> Obtain the repo status 
+git add <element>
+git commit 
+git log -> Allow see commit history
+git commit --amend -> Allow edit the last commit to include or remove changes 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
