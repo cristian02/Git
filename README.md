@@ -64,6 +64,9 @@ git add (element or .) <br/>
 git commit <br/> 
 git log -> Allow see commit history <br/> 
 git commit --amend -> Allow edit the last commit to include or remove changes <br/> 
+git checkout -- (filename) -> Restore the last version in local files 
+git reset HEAD (filename) -> Remove file from stage area 
+  
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
