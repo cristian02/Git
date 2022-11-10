@@ -95,6 +95,11 @@ git merge --abort <br/>
 
 <!-- Tags -->
 ## Tags
+git tag v0.1 -> Works well when it's necesary identify commit or version <br/>
+git tag v0.2 (hash code) -> Assign tag a specific commit 
+git checkout (tag) -> Go to specific commit
+git tag -> Show all tags 
+git tag -d (tag version) -> Delete a specific tag 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
