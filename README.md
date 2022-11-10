@@ -72,6 +72,8 @@ git revert --no-commit HEAD <br/> Revert the specific commit but send the chance
 git revert --continue <br/>
 git log --oneline --graph <br/>
 git log --oneline --graph --decorate
+git log --oneline --decorate --all 
+git log --oneline --decorate --all --graph 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,6 +85,7 @@ git checkout (branch name) -> change the branch
 git checkout -b (name new branch) -> create and change branch
 git branch -m (older branch name) (new branch name) -> rename exists branch 
 git branch -d (branch name)-> delete branch
+git branch 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
