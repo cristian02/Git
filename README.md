@@ -15,6 +15,7 @@
       <ul>
         <li><a href="#our-first-repo">Our first repo</a></li>
         <li><a href="#braches">Branches</a></li>
+        <li><a href="#tags">Tags</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -49,6 +50,8 @@ git config --global -e
 
 git config --global core.autocrlf true (Windows)<br/> 
 git config --global core.autocrlf input (MAC)
+git config --global alias.lodag 'log --oneline --decorate --all --graph' -> Allow create shortcuts <br/>
+git config --global --get-regpex alias -> Obtain all alias
 
 <!-- Let's start - Hands-on -->
 ## Our first repo 
@@ -71,21 +74,28 @@ git revert HEAD <br/>
 git revert --no-commit HEAD <br/> Revert the specific commit but send the chance in the stage
 git revert --continue <br/>
 git log --oneline --graph <br/>
-git log --oneline --graph --decorate
-git log --oneline --decorate --all 
-git log --oneline --decorate --all --graph 
+git log --oneline --graph --decorate<br/>
+git log --oneline --decorate --all <br/>
+git log --oneline --decorate --all --graph <br/>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Branches -->
 ## Branches  
-git branch -> it shows the branches list
-git branch (name new branch) -> create new branch
-git checkout (branch name) -> change the branch
-git checkout -b (name new branch) -> create and change branch
-git branch -m (older branch name) (new branch name) -> rename exists branch 
-git branch -d (branch name)-> delete branch
-git branch 
+git branch -> it shows the branches list<br/>
+git branch (name new branch) -> create new branch<br/>
+git checkout (branch name) -> change the branch<br/>
+git checkout -b (name new branch) -> create and change branch<br/>
+git branch -m (older branch name) (new branch name) -> rename exists branch <br/>
+git branch -d (branch name)-> delete branch<br/>
+git merge (branch name)<br/>
+git merge --abort <br/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Tags -->
+## Tags
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
