@@ -14,6 +14,7 @@
       <a href="#first-steps">First Steps - Configuration</a>
       <ul>
         <li><a href="#our-first-repo">Let's start - Hands-on</a></li>
+        <li><a href="#braches">Branches</a></li>
       </ul>
     </li>
     <li>
@@ -63,6 +64,8 @@ git status -> Obtain the repo status <br/>
 git add (element or .) <br/> 
 git commit <br/> 
 git diff -> Shows us difference between the last file commited and the current file<br/>
+git diff (commit1) (commit2) -> Compare two commit
+git diff HEAD~1 HEAD -> Compare the last commit with the last commit lest 1 
 git log -> Allow see commit history <br/> 
 git log --oneline -> Show the summary log <br/>
 git commit --amend -> Allow edit the last commit to include or remove changes <br/> 
@@ -71,7 +74,12 @@ git reset HEAD (filename) -> Remove file from stage area <br/>
 git reset (hash code) -> Delete specific commit. Don't execute the command in distribuite enviroment, so only in local. <br/>
 git reset --hard (hash code)<br/>
 git reset --soft (hash code)<br/>
-  
+git revert HEAD <br/>  
+git revert --no-commit HEAD <br/> Revert the specific commit but send the chance in the stage
+git revert --continue <br/>
+
+<!-- Branches -->
+## Branches  
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
