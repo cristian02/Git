@@ -58,10 +58,11 @@ git config --global core.autocrlf input (MAC)
 
 <!-- Let's start - Hands-on -->
 ## Our first repo 
-git init -> Start git file <br/> 
+git init -> Start git file <br/> (ls -a to see the .git file)
 git status -> Obtain the repo status <br/> 
 git add (element or .) <br/> 
 git commit <br/> 
+git diff -> Shows us difference between the last file commited and the current file<br/>
 git log -> Allow see commit history <br/> 
 git commit --amend -> Allow edit the last commit to include or remove changes <br/> 
 git checkout -- (filename) -> Restore the last version in local files <br/>
