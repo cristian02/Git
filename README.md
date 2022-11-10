@@ -64,9 +64,13 @@ git add (element or .) <br/>
 git commit <br/> 
 git diff -> Shows us difference between the last file commited and the current file<br/>
 git log -> Allow see commit history <br/> 
+git log --oneline -> Show the summary log <br/>
 git commit --amend -> Allow edit the last commit to include or remove changes <br/> 
 git checkout -- (filename) -> Restore the last version in local files <br/>
 git reset HEAD (filename) -> Remove file from stage area 
+git reset (hash code) -> Delete specific commit. Don't execute the command in distribuite enviroment, so only in local. 
+git reset --hard (hash code)
+git reset --soft (hash code)
   
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
