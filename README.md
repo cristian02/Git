@@ -13,15 +13,8 @@
     <li>
       <a href="#first-steps">First Steps - Configuration</a>
       <ul>
-        <li><a href="#our-first-repo">Let's start - Hands-on</a></li>
+        <li><a href="#our-first-repo">Our first repo</a></li>
         <li><a href="#braches">Branches</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -77,10 +70,23 @@ git reset --soft (hash code)<br/>
 git revert HEAD <br/>  
 git revert --no-commit HEAD <br/> Revert the specific commit but send the chance in the stage
 git revert --continue <br/>
+git log --oneline --graph <br/>
+git log --oneline --graph --decorate
+git log --oneline --decorate --all 
+git log --oneline --decorate --all --graph 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Branches -->
 ## Branches  
-  
+git branch -> it shows the branches list
+git branch (name new branch) -> create new branch
+git checkout (branch name) -> change the branch
+git checkout -b (name new branch) -> create and change branch
+git branch -m (older branch name) (new branch name) -> rename exists branch 
+git branch -d (branch name)-> delete branch
+git branch 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
