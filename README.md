@@ -100,6 +100,10 @@ git tag v0.2 (hash code) -> Assign tag a specific commit
 git checkout (tag) -> Go to specific commit
 git tag -> Show all tags 
 git tag -d (tag version) -> Delete a specific tag 
+git tag -l -> Lists all tags 
+git tag -l "v.0.*" -> Filter tags, it should swap v.0.* for you filter criteria  
+git tag -a v0.1.0 -> Create annotated tag 
+git show (tag like v0.1.0)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
