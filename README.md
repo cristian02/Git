@@ -16,6 +16,8 @@
         <li><a href="#our-first-repo">Our first repo</a></li>
         <li><a href="#braches">Branches</a></li>
         <li><a href="#tags">Tags</a></li>
+        <li><a href="#stash">Stash</a></li>
+        <li><a href="#remote">Remote</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -96,14 +98,29 @@ git merge --abort <br/>
 <!-- Tags -->
 ## Tags
 git tag v0.1 -> Works well when it's necesary identify commit or version <br/>
-git tag v0.2 (hash code) -> Assign tag a specific commit 
-git checkout (tag) -> Go to specific commit
-git tag -> Show all tags 
-git tag -d (tag version) -> Delete a specific tag 
-git tag -l -> Lists all tags 
-git tag -l "v.0.*" -> Filter tags, it should swap v.0.* for you filter criteria  
-git tag -a v0.1.0 -> Create annotated tag 
-git show (tag like v0.1.0)
+git tag v0.2 (hash code) -> Assign tag a specific commit <br/>
+git checkout (tag) -> Go to specific commit<br/>
+git tag -> Show all tags <br/>
+git tag -d (tag version) -> Delete a specific tag <br/>
+git tag -l -> Lists all tags <br/>
+git tag -l "v.0.*" -> Filter tags, it should swap v.0.* for you filter criteria  <br/>
+git tag -a v0.1.0 -> Create annotated tag <br/>
+git show (tag like v0.1.0)<br/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Stash -->
+## Stash 
+git stash -> Save your file temporaly and hidden chances. It behavoir like stack <br/>
+git stash list
+git stash apply -> Retrieve the first 
+git stash drop -> Delete the first element in stack 
+git stash save "comment"
+git stash show stash@{0} 
+git stash pop -> apply + drop 
+
+<!-- Remote -->
+## Remote 
+git remote
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
