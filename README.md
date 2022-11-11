@@ -118,9 +118,22 @@ git stash save "comment"
 git stash show stash@{0} 
 git stash pop -> apply + drop 
 
-<!-- Remote -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Remote and Rebase-->
 ## Remote 
-git remote
+git remote add origin (repo url)
+git remote -v -> show repo info 
+git push origin master -> upload repo to server 
+git push origin --all -> upload all branches 
+git clone (repo url) -> download repo 
+git pull origin master -> This command is the result of fetch + pull 
+git fetch origin -> Ask about pending changes, then it donwload them
+git pull --rebase origin master -> First, rewinding commit list and then applied one by one 
+git rebase master -> Modified commit pointer to make easiest the merge 
+git rebase -i HEAD~# -> Powerfull command. Take care, dont' use with commit pushed 
+
+merge vs rebase -> Merge create tracking, Rebase doesn't. Don't have to make rebase with pushed changes 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
