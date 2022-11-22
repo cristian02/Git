@@ -111,29 +111,29 @@ git show (tag like v0.1.0)<br/>
 <!-- Stash -->
 ## Stash 
 git stash -> Save your file temporaly and hidden chances. It behavoir like stack <br/>
-git stash list
-git stash apply -> Retrieve the first 
-git stash drop -> Delete the first element in stack 
-git stash save "comment"
-git stash show stash@{0} 
-git stash pop -> apply + drop 
+git stash list<br/> 
+git stash apply -> Retrieve the first <br/> 
+git stash drop -> Delete the first element in stack <br/> 
+git stash save "comment"<br/> 
+git stash show stash@{0} <br/> 
+git stash pop -> apply + drop <br/> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Remote and Rebase-->
 ## Remote 
-git remote add origin (repo url)
-git remote -v -> show repo info 
-git push origin master -> upload repo to server 
-git push origin --all -> upload all branches 
-git clone (repo url) -> download repo 
-git pull origin master -> This command is the result of fetch + pull 
-git fetch origin -> Ask about pending changes, then it donwload them
-git pull --rebase origin master -> First, rewinding commit list and then applied one by one 
-git rebase master -> Modified commit pointer to make easiest the merge 
-git rebase -i HEAD~# -> Powerfull command. Take care, dont' use with commit pushed 
+git remote add origin (repo url)<br/> 
+git remote -v -> show repo info <br/> 
+git push origin master -> upload repo to server <br/> 
+git push origin --all -> upload all branches <br/> 
+git clone (repo url) -> download repo <br/> 
+git pull origin master -> This command is the result of fetch + pull <br/> 
+git fetch origin -> Ask about pending changes, then it donwload them<br/> 
+git pull --rebase origin master -> First, rewinding commit list and then applied one by one <br/> 
+git rebase master -> Modified commit pointer to make easiest the merge <br/> 
+git rebase -i HEAD~# -> Powerfull command. Take care, dont' use with commit pushed <br/> 
 
-merge vs rebase -> Merge create tracking, Rebase doesn't. Don't have to make rebase with pushed changes 
+merge vs rebase -> Merge create tracking, Rebase doesn't. Don't have to make rebase with pushed changes <br/> 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
