@@ -4,7 +4,7 @@
   <p align="center">
     This tutorial shows how use git commands throught examples.  
   </p>
-</div>
+</div> 
 
 <!-- TABLE OF CONTENTS -->
 <details>
